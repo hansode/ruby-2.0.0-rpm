@@ -1,5 +1,5 @@
 %define rubyver         2.0.0
-%define rubyminorver    p0
+%define rubyminorver    p195
 
 Name:           ruby
 Version:        %{rubyver}%{rubyminorver}
@@ -64,6 +64,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}
 
 %changelog
+* Sun May 19 2013 Masahito Yoshida <masahito@axsh.net> - 2.0.0-p195
+- Update ruby version to 2.0.0-p195
+
 * Sat Mar 23 2013 Masahito Yoshida <masahito@axsh.net> - 2.0.0-p0
 - Update ruby version to 2.0.0-p0
 
