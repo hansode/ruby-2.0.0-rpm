@@ -11,7 +11,7 @@ BuildRequires:  readline readline-devel ncurses ncurses-devel gdbm gdbm-devel gl
 Source0:        ftp://ftp.ruby-lang.org/pub/ruby/ruby-%{rubyver}-%{rubyminorver}.tar.gz
 Summary:        An interpreter of object-oriented scripting language
 Group:          Development/Languages
-Provides: ruby(abi) = 1.9
+Provides: ruby(abi) = 2.0
 Provides: ruby-irb
 Provides: ruby-rdoc
 Provides: ruby-libs
