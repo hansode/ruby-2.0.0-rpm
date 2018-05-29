@@ -1,5 +1,5 @@
 %define rubyver         2.0.0
-%define rubyminorver    p598
+%define rubyminorver    p647
 
 Name:           ruby
 Version:        %{rubyver}%{rubyminorver}
@@ -23,6 +23,7 @@ Obsoletes: ruby-irb
 Obsoletes: ruby-rdoc
 Obsoletes: ruby-devel
 Obsoletes: rubygems
+Obsoletes: rubygem-json
 
 %description
 Ruby is the interpreted scripting language for quick and easy
@@ -64,6 +65,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}
 
 %changelog
+* Thu May 3 2018 Alfredo Baldoceda <alfrds@gmail.com> - 2.0.0-p647
+- Update ruby version to 2.0.0-p647
+
 * Wed May 13 2015 Masahito Yoshida <masahito@axsh.net> - 2.0.0-p598
 - Update ruby version to 2.0.0-p598
 
